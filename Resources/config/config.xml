@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+
+    <card>
+        <title>Color configuration</title>
+
+            <input-field type="colorpicker"> 
+            <name>backgroundcolor</name> 
+            <label>Change Background Color</label> 
+            <label lang="de-DE">Auf Einkaufswagen-Seite anzeigen?</label> 
+        </input-field>
+        
+    </card>
+
+    <card>
+        <title>height configuration</title>
+
+            <input-field type="text"> 
+            <name>backgroundheight</name> 
+            <label>Change Background height</label> 
+            <label lang="de-DE">Auf Einkaufswagen-Seite anzeigen?</label> 
+        </input-field>
+        
+    </card>
+    
+     <card>
+        <title>iconsheight configuration</title>
+
+            <input-field type="text"> 
+            <name>iconsheight</name> 
+            <label>Change icons height</label> 
+            <label lang="de-DE">Auf Einkaufswagen-Seite anzeigen?</label> 
+        </input-field>
+        
+    </card>
+
+    <card>
+        <title>Minimal configuration</title>
+
+        <input-field type="bool"> 
+            <name>firsticon</name> 
+            <label>Show first icon</label> 
+            <label lang="de-DE">Auf Einkaufswagen-Seite anzeigen?</label> 
+        </input-field>
+
+        <input-field type="bool"> 
+            <name>secondicon</name> 
+            <label>Show second icon</label> 
+            <label lang="de-DE">Auf Einkaufswagen-Seite anzeigen?</label> 
+        </input-field>
+
+        <input-field type="bool"> 
+            <name>thirdicon</name> 
+            <label>Show third icon</label> 
+            <label lang="de-DE">Auf Einkaufswagen-Seite anzeigen?</label> 
+        </input-field>
+
+        <input-field type="bool"> 
+            <name>fourthicon</name> 
+            <label>Show fourth icon</label> 
+            <label lang="de-DE">Auf Einkaufswagen-Seite anzeigen?</label> 
+        </input-field>
+
+        <input-field type="bool"> 
+            <name>fifthicon</name> 
+            <label>Show fifth icon</label> 
+            <label lang="de-DE">Auf Einkaufswagen-Seite anzeigen?</label> 
+        </input-field>
+    </card>
+
+    
+
+</config>
